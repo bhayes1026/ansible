@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: update_repository_index
+    apt:
+      update_cache: yes  
