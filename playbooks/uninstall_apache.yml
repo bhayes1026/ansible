@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: uninstall_apache2_package
+    apt:
+      name: apache2
+      state: absent
