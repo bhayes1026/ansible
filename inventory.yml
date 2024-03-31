@@ -1,0 +1,22 @@
+appservers:
+  hosts:
+    server101:
+    server201:
+    server202:
+webservers:
+  hosts:
+    server103:
+    server104:
+    server203:
+    server204:
+dbservers:
+  hosts:
+    server105:
+    server205:
+east:
+  hosts:
+    server[101:105]:
+west:
+  hosts:
+    server[201:205]:
+
